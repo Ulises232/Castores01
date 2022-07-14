@@ -1,0 +1,28 @@
+.margin-menu {
+    margin-left: 27px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.tableFixHead {
+    overflow: auto;
+}
+
+.tableFixHead table thead th {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
